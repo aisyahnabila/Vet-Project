@@ -1,0 +1,196 @@
+/* all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* hero section */
+.hero {
+  background: linear-gradient(258.49deg, #F5306B 10.96%, rgba(95, 196, 86, 0) 100.16%);
+  height: 100vh;
+}
+
+.hero-2 .hero-animed {
+  height: 70%;
+}
+
+.hero-2 h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #FF004F;
+}
+
+.hero-2 .campaing {
+  width: 50%;
+}
+
+.hero-2 h1 {
+  text-transform: capitalize;
+  color: #2C1C13;
+  font-weight: 700px;
+  font-size: px;
+}
+
+.hero-2 p {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.pro-name {
+  color: #FF004F;
+  font-weight: 600;
+}
+
+.hero {
+  margin-top: 5px;
+}
+
+/* button in hero section */
+.hero-2 button img {
+  width: 24px;
+  height: 24.62px;
+}
+
+.hero-2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.105em;
+  color: #FFFFFF;
+  background-color: #FF004F;
+  border-radius: 40px;
+  padding: 14px 20px 14px 24px;
+  transform: translate(0px, 0px) rotate(0deg);
+  transition: 0.7s;
+  box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #FF3A77;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+button:active {
+  box-shadow: none;
+}
+
+/* wave section */
+.wave {}
+
+
+/* deskstop */
+@media (min-width: 992px) {
+
+  /* navbar */
+  .navbar-nav .nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .navbar-nav .nav-link:hover::after {
+    border-bottom: 3px solid #86BD73;
+    content: '';
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar-nav .nav-brand .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  }
+
+  /* hero section */
+  .hero {
+    margin-top: -70px;
+  }
+
+  .hero-2 {
+    margin-top: 80px;
+  }
+}
+
+/* keunggulan section */
+#keunggulan {
+  padding: 100px 0;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 600;
+  color: #FF004F;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2C1C13;
+}
+
+/* card section */
+.card-grade {
+  width: 100%;
+  height: 320px;
+  border-radius: 25px;
+  background-color: #F6F6F6;
+  padding: 25px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #98D9F4;
+  border-radius: 50%;
+}
+
+.title-card {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.isi-card {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* button read more */
+.read-more {
+  width: 102px;
+  height: 42px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #FF004F;
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.read-more:hover {
+  background: #FF3A77;
+  color: white;
+  font-size: 13px;
+}

@@ -20,7 +20,7 @@ body {
 }
 
 .hero-2 .hero-animed {
-  height: 70%;
+  height: 55%;
 }
 
 .hero-2 h4 {
@@ -42,7 +42,6 @@ body {
   text-transform: capitalize;
   color: #2C1C13;
   font-weight: 700px;
-  font-size: px;
 }
 
 .hero-2 p {
@@ -193,4 +192,38 @@ button:active {
   background: #FF3A77;
   color: white;
   font-size: 13px;
+}
+
+/* shape section */
+
+.campaing-shape {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.campaing2-shape {
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.campaing-merge {
+  width: 420px;
+  float: right;
+}
+
+.image-overlay {
+  position: absolute;
+  z-index: -1;
+  margin-top: 130px;
+  opacity: 0.8;
+}
+
+.bg-shape-section {
+  width: 100%;
+}
+
+.shape-section {
+  position: relative;
 }

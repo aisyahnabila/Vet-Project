@@ -92,10 +92,6 @@ button:active {
   box-shadow: none;
 }
 
-/* wave section */
-.wave {}
-
-
 /* deskstop */
 @media (min-width: 992px) {
 
@@ -108,7 +104,7 @@ button:active {
   }
 
   .navbar-nav .nav-link:hover::after {
-    border-bottom: 3px solid #86BD73;
+    border-bottom: 3px solid #FF004F;
     content: '';
     display: block;
     width: 50%;

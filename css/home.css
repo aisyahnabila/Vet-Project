@@ -34,7 +34,7 @@ body {
   color: #FF004F;
 }
 
-.hero-2 .campaing {
+.hero-2 .campaign {
   width: 50%;
 }
 
@@ -192,19 +192,19 @@ button:active {
 
 /* shape section */
 
-.campaing-shape {
+.campaign-shape {
   font-family: 'Hammersmith One', sans-serif;
   font-size: 38px;
   text-transform: capitalize;
 }
 
-.campaing2-shape {
+.campaign2-shape {
   font-family: 'Hi Melody', sans-serif;
   font-size: 38px;
   text-transform: capitalize;
 }
 
-.campaing-merge {
+.campaign-merge {
   width: 420px;
   float: right;
 }
@@ -212,14 +212,46 @@ button:active {
 .image-overlay {
   position: absolute;
   z-index: -1;
-  margin-top: 130px;
   opacity: 0.8;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
-.bg-shape-section {
+.image-overlay img {
   width: 100%;
 }
 
-.shape-section {
+#shape-section {
   position: relative;
+  padding-bottom: 55em;
+}
+
+/* info produk */
+
+.content_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_container h3 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 45px;
+
+}
+
+.banner_produk {
+  width: 550px;
+  height: auto;
+  margin-bottom: 10em;
+}
+
+.banner-container {
+  width: 50%;
+}
+
+.banner-container .banner_produk {
+  width: 50px;
 }

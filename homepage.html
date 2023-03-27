@@ -58,10 +58,18 @@
         <img src="asset/cg-herosection.png" alt="hero-sectionanime" class=" hero-animed position-absolute end-0">
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,64L24,69.3C48,75,96,85,144,85.3C192,85,240,75,288,69.3C336,64,384,64,432,85.3C480,107,528,149,576,170.7C624,192,672,192,720,170.7C768,149,816,107,864,85.3C912,64,960,64,1008,64C1056,64,1104,64,1152,58.7C1200,53,1248,43,1296,53.3C1344,64,1392,96,1416,112L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
-      </path>
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 590" xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150">
+      <defs>
+        <linearGradient id="gradient" x1="0%" y1="51%" x2="100%" y2="49%">
+          <stop offset="5%" stop-color="#f5306b"></stop>
+          <stop offset="95%" stop-color="#ffecf6"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,600 C 0,600 0,300 0,300 C 61.93427000449391,247.8189616431838 123.86854000898782,195.6379232863676 165,199 C 206.13145999101218,202.3620767136324 226.4601099685426,261.2672684977134 268,263 C 309.5398900314574,264.7327315022866 372.29102011684154,209.2930027227788 423,242 C 473.70897988315846,274.7069972772212 512.375809564091,395.56072061117135 565,394 C 617.624190435909,392.43927938882865 684.2057416267943,268.46411483253587 730,251 C 775.7942583732057,233.53588516746413 800.8012239287318,322.5828200586851 844,326 C 887.1987760712682,329.4171799413149 948.5893626582781,247.20460493272356 1000,233 C 1051.410637341722,218.79539506727644 1092.841325438156,272.59876021042055 1141,304 C 1189.158674561844,335.40123978957945 1244.0453355890984,344.4003542255941 1295,340 C 1345.9546644109016,335.5996457744059 1392.9773322054507,317.79982288720294 1440,300 C 1440,300 1440,600 1440,600 Z"
+        stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 300)"></path>
     </svg>
   </section>
   <!-- hero section end -->
@@ -69,72 +77,60 @@
   <!-- keunggulan section -->
   <section id="keunggulan">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-between">
         <div class="col-12 text-center">
           <h2 class="title">Keunggulan Produk</h2>
           <span class="sub-title">Kenapa harus memilih produk kami?</span>
         </div>
 
-        <!-- card keunggulan -->
-        <div class="row mt-5">
-          <div class="col-md-3 text-center">
-            <div class="card-grade">
-              <div class="circle-icon position-relative mx-auto">
-                <img src="asset/image 4.png" alt="human-grade" class="position-absolute top-50 start
-                -50 translate-middle">
-              </div>
-              <h3 class="title-card mt-4">Human Food Grade Ingredients</h3>
-              <p class="isi-card mt-3">Bahan baku yang digunakan berkualitas dan alami</p>
-              <button class="read-more">
-                Read More...
-              </button>
-            </div>
-          </div>
-
-          <div class="col-md-3 text-center">
-            <div class="card-grade">
-              <div class="circle-icon position-relative mx-auto">
-                <img src="asset/image 4.png" alt="human-grade" class="position-absolute top-50 start
-                -50 translate-middle">
-              </div>
-              <h3 class="title-card mt-4">Natural Holististic Health</h3>
-              <p class="isi-card mt-3">Bentuk yang lucu tidak mengurangi manfaat kandungan suplemen</p>
-              <button class="read-more">
-                Read More...
-              </button>
-            </div>
-          </div>
-
-          <div class="col-md-3 text-center">
-            <div class="card-grade">
-              <div class="circle-icon position-relative mx-auto">
-                <img src="asset/image 4.png" alt="human-grade" class="position-absolute top-50 start
-                -50 translate-middle">
-              </div>
-              <h3 class="title-card mt-4">Without Preservative</h3>
-              <p class="isi-card mt-3">Bahan alami, aman untuk anabul dan
-                meminimalisir efek samping</p>
-              <button class="read-more">
-                Read More...
-              </button>
-            </div>
-          </div>
-
-          <div class="col-md-3 text-center">
-            <div class="card-grade">
-              <div class="circle-icon position-relative mx-auto">
-                <img src="asset/image 4.png" alt="human-grade" class="position-absolute top-50 start
-                -50 translate-middle">
-              </div>
-              <h3 class="title-card mt-4">Scientifically Proven</h3>
-              <p class="isi-card mt-3">Produksi dan riset dilakukan oleh para ahli dalam kesehatan hewan</p>
-              <button class="read-more">
-                Read More...
-              </button>
+        <!-- Keunggulan card -->
+        <div class="box row mt-5" style="--clr:#FF004F;">
+          <div class="content text-center">
+            <div class="icon"><ion-icon name="shield-half"></ion-icon></div>
+            <div class="text">
+              <h3>Human Food Grade Standard</h3>
+              <p>Bahan baku pilihan yang berkualitas dan alami</p>
+              <a href="#">Read More</a>
             </div>
           </div>
         </div>
+
+        <div class="box row mt-5" style="--clr:#FF004F;">
+          <div class="content text-center">
+            <div class="icon"><ion-icon name="leaf"></ion-icon></div>
+            <div class="text">
+              <h3>Natural Holististic Health</h3>
+              <p>Bentuk yang lucu kaya akan manfaat untuk kesehatan anabul</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box row mt-5" style="--clr:#FF004F;">
+          <div class="content text-center">
+            <div class="icon"><ion-icon name="remove-circle"></ion-icon></div>
+            <div class="text">
+              <h3>Without Preservative</h3>
+              <p>Bahan alami, aman untuk anabul dan
+                meminimalisir efek samping</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box row mt-5" style="--clr:#FF004F;">
+          <div class="content text-center">
+            <div class="icon"><ion-icon name="search"></ion-icon></div>
+            <div class="text">
+              <h3>Scientifically Proven</h3>
+              <p>Produksi dan riset dilakukan oleh para ahli dalam kesehatan hewan</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div>
   </section>
 
   <!-- shape section -->
@@ -163,51 +159,62 @@
             <h3>Dapatkan vitamin sehat untuk anabul dari ahlinya</h3>
             <p><br></p>
             <!-- item in info -->
-            <div class="item-container">
-              <div class="item">
-                <div class="title">
-                  <p><b>3</b></p>
-                </div>
-                <div class="desc">
-                  <p>Tahun</p>
-                </div>
-              </div>
-              <div class="item">
-                <div class="title">
-                  <p><b>3</b></p>
-                </div>
-                <div class="desc">
-                  <p>Reseller</p>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-01.png" alt="">
+                    </div>
+                    <div class="count-digit">320</div>
+                    <div class="count-title">SEO Projects</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="item">
-              <div class="title">
-                <p><b>3</b></p>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-02.png" alt="">
+                    </div>
+                    <div class="count-digit">640</div>
+                    <div class="count-title">Websites</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
+                </div>
               </div>
-              <div class="desc">
-                <p>Produk</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="title">
-                <p><b>3</b></p>
-              </div>
-              <div class="desc">
-                <p>Pengembang Produk</p>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-03.png" alt="">
+                    </div>
+                    <div class="count-digit">120</div>
+                    <div class="count-title">Satisfied Clients</div>
+                    <p>Lorem ipsum dolor sitti amet, consectetur.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- banner-info -->
-          <img src="asset/chubby-gummy-group.png" alt="produk-chubby" class="banner_produk position-absolute end-0">
         </div>
       </div>
+    </div>
+    </div>
+    <!-- banner-info -->
+    <img src="asset/chubby-gummy-group.png" alt="produk-chubby" class="banner_produk position-absolute end-0">
+    </div>
+    </div>
     </div>
   </section>
   <!-- js bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+  <!-- Ion Icon -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

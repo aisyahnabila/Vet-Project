@@ -1,4 +1,8 @@
 /* all */
+:root {
+  --pr-clr: #F5306B;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,15 +17,41 @@ body {
   box-sizing: border-box;
 }
 
+/* navbar */
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover::after {
+  border-bottom: 3px solid #fceef2;
+  content: '';
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+  border-radius: 1px;
+}
+
+.navbar-nav .nav-brand .nav-link {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
 /* hero section */
 .hero {
-  background: linear-gradient(258.49deg, #F5306B 10.96%, rgba(95, 196, 86, 0) 100.16%);
+  background: linear-gradient(258.49deg, var(--pr-clr) 10.96%, rgba(95, 196, 86, 0) 100.16%);
   height: 100vh;
+  width: 100%;
+  margin-top: -70px;
 }
 
 .hero-2 .hero-animed {
-  width: 736px;
-  height: 974px;
+  width: 536px;
+  height: 474px;
+  top: 100px;
 }
 
 .hero-2 h4 {
@@ -51,14 +81,11 @@ body {
   text-transform: capitalize;
 }
 
-.pro-name {
+.nama-produk {
   color: #FF004F;
   font-weight: 600;
 }
 
-.hero {
-  margin-top: 5px;
-}
 
 /* button in hero section */
 .hero-2 button img {
@@ -94,39 +121,7 @@ button:active {
 }
 
 /* deskstop */
-@media (min-width: 992px) {
-
-  /* navbar */
-  .navbar-nav .nav-link {
-    text-transform: uppercase;
-    margin-right: 10px;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .navbar-nav .nav-link:hover::after {
-    border-bottom: 3px solid #FF004F;
-    content: '';
-    display: block;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 5px;
-    margin-bottom: -8px;
-  }
-
-  .navbar-nav .nav-brand .nav-link {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-  }
-
-  /* hero section */
-  .hero {
-    margin-top: -70px;
-  }
-
-  .hero-2 {
-    margin-top: 80px;
-  }
-}
+@media (min-width: 992px) {}
 
 /* keunggulan section */
 #keunggulan {
@@ -324,29 +319,31 @@ button:active {
 
 /* info produk */
 
-.content_container {
+#info-section .container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+#info-section .container .content_container {
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 15px;
+  margin-top: 3.5em;
 }
 
-.content_container h3 {
+#info-section .container .content_container h3 {
   font-family: 'Hammersmith One', sans-serif;
   font-size: 45px;
 }
 
-.banner_produk {
+#info-section.container.img-info {
   width: 500px;
-  height: auto;
-  margin-bottom: 10em;
 }
 
-.banner-container {
-  width: 50%;
+#info-section .container .img-info img {
+  width: 540px;
+  height: 420px;
+  margin-top: 2.5em;
 }
 
-.banner_produk {
-  width: 650px;
-  height: 520px;
-}
+.info-section .count-area-content .count-digit {}

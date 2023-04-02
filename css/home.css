@@ -126,7 +126,6 @@ button:active {
 /* keunggulan section */
 #keunggulan {
   padding: 100px 0;
-  margin-top: 150px;
 }
 
 .title {
@@ -296,6 +295,7 @@ button:active {
 .campaign-merge {
   width: 420px;
   float: right;
+  margin: 40px 0 0 0;
 }
 
 .image-overlay {
@@ -319,21 +319,17 @@ button:active {
 
 /* info produk */
 
-#info-section .container {
-  display: flex;
-  box-sizing: border-box;
-}
-
 #info-section .container .content_container {
   width: 50%;
   display: flex;
   flex-direction: column;
   margin-top: 3.5em;
+  border-top: 3px var(--pr-clr);
 }
 
 #info-section .container .content_container h3 {
   font-family: 'Hammersmith One', sans-serif;
-  font-size: 45px;
+  font-size: 46px;
 }
 
 #info-section.container.img-info {
@@ -343,7 +339,21 @@ button:active {
 #info-section .container .img-info img {
   width: 540px;
   height: 420px;
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
 }
 
-.info-section .count-area-content .count-digit {}
+#info-item .display-4 {
+  font-size: 46px;
+  font-family: 'poppins', sans-serif;
+  color: #FF3A77;
+  font-weight: 700;
+}
+
+#info-section .mb-0 {
+  font-size: 28px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* feedback-section */
+#feedback

@@ -1,0 +1,59 @@
+<div class="row">
+              <div class="col-lg-4 fill-border">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="count-digit">320</div>
+                    <div class="count-title">SEO Projects</div>
+                    <!-- <p>Lorem ipsum dolor sitti amet, consectetur.</p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="count-digit">640</div>
+                    <div class="count-title">Websites</div>
+                    <!-- <p>Lorem ipsum dolor sitti amet, consectetur.</p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="count-digit">120</div>
+                    <div class="count-title">Satisfied Clients</div>
+                    <!-- <p>Lorem ipsum dolor sitti amet, consectetur.</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+CSS
+
+#info-section .container .content_container h3 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 45px;
+}
+
+#info-section.container.img-info {
+  width: 500px;
+}
+
+#info-section .container .img-info img {
+  width: 540px;
+  height: 420px;
+  margin-top: 2.5em;
+}
+
+#info-section .count-area-content .count-digit {
+  font-size: 40px;
+  font-family: 'poppins', sans-serif;
+  color: #FF3A77;
+  font-weight: 600;
+}
+
+#info-section .count-area-content .count-title {
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+}
